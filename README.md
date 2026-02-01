@@ -35,7 +35,7 @@ My work focuses on:
 - **Google Fonts (Inter, Syne)** – Typography
 
 ### Hosting & Tools
-– Static hosting
+- Static hosting
 - Git & GitHub – Version control
 
 ---
