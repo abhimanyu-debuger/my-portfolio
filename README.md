@@ -38,7 +38,4 @@ My work focuses on:
 - Static hosting
 - Git & GitHub – Version control
 
----
-
-## 📁 Project Structure
 
