@@ -1,1 +1,239 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhimanyu Banerjee - Portfolio[cite: 1]</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-main: #1f2937;
+            --text-light: #4b5563;
+            --bg-light: #f3f4f6;
+            --bg-white: #ffffff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--bg-white);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--text-main);
+            margin-left: 1.5rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--primary);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
+        }
+        section {
+            background: var(--bg-white);
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.75rem;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            color: var(--text-main);
+        }
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .job-meta {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+        ul {
+            margin-left: 1.5rem;
+            color: var(--text-light);
+        }
+        li {
+            margin-bottom: 0.75rem;
+        }
+        .skills-category {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div style="font-weight: bold; font-size: 1.2rem; color: var(--primary);">AB[cite: 1]</div>
+            <div>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero / Contact Section -->
+        <section id="about">
+            <h1 id="greeting-name">Abhimanyu Banerjee[cite: 1]</h1>
+            <div class="contact-info">
+                <p>
+                    <a href="mailto:abhimanyubanerjee30@gmail.com" target="_blank">abhimanyubanerjee30@gmail.com[cite: 1]</a> |
+                    <span>+91 9752014643[cite: 1]</span>
+                </p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://linkedin.com/in/abhimanyu-banerjee" target="_blank">LinkedIn[cite: 1]</a> |
+                    <a href="https://github.com/abhimanyu-debuger" target="_blank">GitHub[cite: 1]</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills[cite: 1]</h2>
+            <div class="skills-category">
+                <strong>Programming Languages & Frameworks:</strong> C++, Python, Java, JavaScript, PHP, React, Laravel, Node.js, Selenium.[cite: 1]
+            </div>
+            <div class="skills-category">
+                <strong>Databases & Analytics:</strong> MySQL, Oracle 11g Database, Oracle PL/SQL, Microsoft SQL Server (MSSQL), Machine Learning, Graph RAG, Power BI (DAX), Grafana, Prometheus, Advanced Excel (Power Query, VBA), Google Apps Script.[cite: 1]
+            </div>
+            <div class="skills-category">
+                <strong>Tools, Cloud & Enterprise Systems:</strong> Git, GitHub, Google Cloud Platform, SAP S/4HANA Public Edition (Material Management & Production Planning), SAP OData Integration, IFS ERP.[cite: 1]
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience">
+            <h2>Work Experience[cite: 1]</h2>
+            
+            <!-- Experience 1 -->
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Application Developer | Simplex Engineering & Foundry Works[cite: 1]</span>
+                    <span class="job-meta">May 2025 – Present | Bhilai, India[cite: 1]</span>
+                </div>
+                <ul>
+                    <li>Designed and developed an internal business portal with custom workflow modules integrated with SAP S/4HANA through OData services to support business processes not covered in standard SAP, along with MIS dashboards, Power BI reports, and Power Query-based analytics for centralized reporting, operational tracking, and real-time data visualization, while working with business processes related to SAP MM and PP modules.[cite: 1]</li>
+                    <li>Implemented GitHub-based version control and managed in-house application infrastructure using NGINX, Prometheus, and Grafana for user handling, server monitoring, downtime alerting, logging, and performance visualization across business applications.[cite: 1]</li>
+                    <li>Developed Python, PL/SQL, Google Apps Script, and GCP API-based automation solutions tailored to departmental workflows, including reconciliation reporting, invoice and document generation, attendance synchronization, Oracle 12c quick-report systems for legacy IFS ERP, and real-time integration between spreadsheets, databases, and internal business portals.[cite: 1]</li>
+                </ul>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Project Assistant | Birla Institute of Technology and Science[cite: 1]</span>
+                    <span class="job-meta">August 2024 – February 2025 | Goa, India[cite: 1]</span>
+                </div>
+                <ul>
+                    <li>Worked on the PAST (Predictor and Analyzer of Security Threats) project by developing Python and Selenium-based automation and web scraping pipelines to collect cybersecurity intelligence data from CVE, MITRE, and critical infrastructure vulnerability databases, transforming large-scale unstructured data into structured SQL datasets for analysis.[cite: 1]</li>
+                    <li>Applied and compared multiple machine learning and statistical models including classification, clustering, regression, moving averages, and exponential smoothing techniques to identify vulnerability patterns, improve threat prediction accuracy, and analyze common attack vectors using Graph RAG-based approaches.[cite: 1]</li>
+                    <li>Performed exploratory data analysis, optimized data extraction and reporting workflows using SQL queries, and documented experiments, model performance, and research pipelines to support scalable, reproducible, and actionable cybersecurity threat analysis.[cite: 1]</li>
+                </ul>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Graduate Engineer Trainee | Bhilai Engineering Corporation[cite: 1]</span>
+                    <span class="job-meta">January 2024 - August 2024 | Bhilai, India[cite: 1]</span>
+                </div>
+                <ul>
+                    <li>Developed and deployed an intranet-based web application featuring an internal employee chat system, IT ticketing system, and IT asset management module for tracking IT Related Assets, improving issue resolution tracking and centralized record management.[cite: 1]</li>
+                    <li>Managed and maintained MS SQL Server databases for MIS reporting, automated SAP-based MIS report generation using Advanced Excel and VBA, and developed PL/SQL stored procedures and quick-report solutions for legacy IFS ERP systems, improving reporting accuracy, reducing manual effort, and enabling faster business data retrieval.[cite: 1]</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education[cite: 1]</h2>
+            <div class="job-header">
+                <span class="job-title">Shri Shankaracharya Technical Campus, Bhilai[cite: 1]</span>
+                <span class="job-meta">2019 - 2023[cite: 1]</span>
+            </div>
+            <p><strong>B.Tech in Computer Science & Engineering</strong> | CGPA: 8.0/10.0[cite: 1]</p>
+            <p style="margin-top: 0.5rem; color: var(--text-light);">
+                <strong>Relevant Coursework:</strong> Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks[cite: 1]
+            </p>
+        </section>
+    </div>
+
+    <script>
+        // Simple JS to log a greeting or add future dynamic interactions
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Welcome to Abhimanyu Banerjee's Portfolio![cite: 1]");
+            
+            // Smooth scroll offset adjustment for fixed header
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
